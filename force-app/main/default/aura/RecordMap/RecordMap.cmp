@@ -22,6 +22,7 @@
 
     <aura:handler event="ltng:selectSObject" action="{!c.recordChangeHandler}" />
 
+    <!-- Card code -->
     <lightning:card title="{!v.title}" iconName="custom:custom106">
         <lightning:map mapMarkers="{!v.mapMarkers}" zoomLevel="{!v.zoomLevel}" />
     </lightning:card>
