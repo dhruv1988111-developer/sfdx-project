@@ -1,6 +1,7 @@
 <aura:component implements="force:hasRecordId,flexipage:availableForAllPageTypes"
                 access="global">
 
+    <!-- Updated -->
     <aura:attribute name="recordId" type="Id" />
     <aura:attribute name="dsRecordId" type="Id" />
     <aura:attribute name="sObject" type="SObject" />

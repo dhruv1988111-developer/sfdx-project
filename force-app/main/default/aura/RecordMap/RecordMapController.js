@@ -1,4 +1,6 @@
 ({
+
+    // updated
     doInit : function(component, event, helper) {
         component.set("v.fields", ["Id", component.get("v.latField"), component.get("v.longField"), component.get("v.titleField")]);
         var recordId = component.get("v.recordId");
