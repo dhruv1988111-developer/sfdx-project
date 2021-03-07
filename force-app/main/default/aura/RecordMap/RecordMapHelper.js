@@ -1,4 +1,5 @@
 ({
+
     // updated
     reloadRecord : function(component) {
         var service = component.find("service");
